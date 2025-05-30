@@ -2,7 +2,7 @@ import RevealOnScroll from "../RevealOnScroll";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900">
+    <footer className="bg-transparent">
       <RevealOnScroll>
         <div className="max-w-5xl mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center py-6 md:py-12">

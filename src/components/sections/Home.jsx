@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import RevealOnScroll from "../RevealOnScroll";
+import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const [displayedText, setDisplayedText] = useState("");
@@ -60,6 +62,40 @@ const Home = () => {
               className="border border-blue-500/50 text-blue-500 py-3 px-6 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.2)] hover:bg-blue-500/10"
             >
               Contact Me!
+            </a>
+          </div>
+          <div className="flex justify-center space-x-4 mt-6">
+            <a
+              href="https://www.facebook.com/raul.cartativo.castillo/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-zinc-100 hover:text-blue-500 hover:-translate-y-1 transition-all duration-300"
+            >
+              <FaFacebook className="w-9 h-9" />
+            </a>
+            <a
+              href="https://www.instagram.com/cchivalryyyy/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-zinc-100 hover:text-blue-500 hover:-translate-y-1 transition-all duration-300"
+            >
+              <FaInstagram className="w-9 h-9" />
+            </a>
+            <a
+              href="https://github.com/lenlo121500"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-zinc-100 hover:text-blue-500 hover:-translate-y-1 transition-all duration-300"
+            >
+              <FaGithub className="w-9 h-9" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/raulc8808/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-zinc-100 hover:text-blue-500 hover:-translate-y-1 transition-all duration-300"
+            >
+              <FaLinkedin className="w-9 h-9" />
             </a>
           </div>
         </div>
