@@ -13,7 +13,7 @@ const Projects = () => {
             Featured Projects
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.4)] transition-all">
               <h3 className="text-xl font-bold mb-2">
                 Quably | Project Management Tool
               </h3>
@@ -35,7 +35,7 @@ const Projects = () => {
                 ].map((tech, key) => (
                   <span
                     key={key}
-                    className="bg-blue-500/10 text-zinc-100 px-3 py-1 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition"
+                    className="bg-blue-500/10 text-zinc-100 px-3 py-1 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.4)] transition"
                   >
                     {tech}
                   </span>
@@ -55,7 +55,7 @@ const Projects = () => {
               </div>
             </div>
             {/* Project 2 */}
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.4)] transition-all">
               <h3 className="text-xl font-bold mb-2">
                 MERN Authentication System
               </h3>
@@ -77,7 +77,7 @@ const Projects = () => {
                 ].map((tech, key) => (
                   <span
                     key={key}
-                    className="bg-blue-500/10 text-zinc-100 px-3 py-1 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition"
+                    className="bg-blue-500/10 text-zinc-100 px-3 py-1 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.4)] transition"
                   >
                     {tech}
                   </span>
@@ -97,7 +97,7 @@ const Projects = () => {
               </div>
             </div>
             {/* Project 3 */}
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.4)] transition-all">
               <h3 className="text-xl font-bold mb-2">Wisp Chat Application</h3>
               <p className="text-zinc-100 mb-4">
                 A modern, real-time chat application built with the MERN stack.
@@ -118,7 +118,7 @@ const Projects = () => {
                 ].map((tech, key) => (
                   <span
                     key={key}
-                    className="bg-blue-500/10 text-zinc-100 px-3 py-1 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition"
+                    className="bg-blue-500/10 text-zinc-100 px-3 py-1 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.4)] transition"
                   >
                     {tech}
                   </span>
@@ -138,7 +138,7 @@ const Projects = () => {
               </div>
             </div>
             {/* Project 4 */}
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.4)] transition-all">
               <h3 className="text-xl font-bold mb-2">
                 Subscription Tracker API
               </h3>
@@ -159,7 +159,7 @@ const Projects = () => {
                 ].map((tech, key) => (
                   <span
                     key={key}
-                    className="bg-blue-500/10 text-zinc-100 px-3 py-1 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition"
+                    className="bg-blue-500/10 text-zinc-100 px-3 py-1 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.4)] transition"
                   >
                     {tech}
                   </span>
