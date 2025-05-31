@@ -9,6 +9,7 @@ import Projects from "./components/sections/Projects";
 import Contact from "./components/sections/Contact";
 import Footer from "./components/sections/Footer";
 import Background3D from "./components/Background3D";
+import Skills from "./components/sections/Skills";
 
 const App = () => {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -26,6 +27,7 @@ const App = () => {
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <Home />
         <About />
+        <Skills />
         <Projects />
         <Contact />
         <Footer />

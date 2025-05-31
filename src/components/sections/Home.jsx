@@ -52,10 +52,12 @@ const Home = () => {
           </p>
           <div className="flex justify-center space-x-4">
             <a
-              href="#projects"
+              href="https://drive.google.com/file/d/17rsooKgPO96dmhuoEX-NLYf7fp8w7glC/view?usp=drive_link"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-blue-500 text-zinc-100 py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]"
             >
-              View Projects
+              Resume
             </a>
             <a
               href="#contact"
@@ -69,31 +71,34 @@ const Home = () => {
               href="https://www.facebook.com/raul.cartativo.castillo/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-zinc-100 hover:text-blue-500 hover:-translate-y-1 transition-all duration-300"
+              className="text-zinc-100 hover:text-white hover:bg-blue-600 p-2 rounded-md hover:scale-110 transition-all duration-300"
             >
               <FaFacebook className="w-9 h-9" />
             </a>
+
             <a
               href="https://www.instagram.com/cchivalryyyy/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-zinc-100 hover:text-blue-500 hover:-translate-y-1 transition-all duration-300"
+              className="text-zinc-100 hover:text-white hover:bg-gradient-to-r from-yellow-400 via-pink-500 to-purple-600 p-2 rounded-md hover:scale-110 transition-all duration-300"
             >
               <FaInstagram className="w-9 h-9" />
             </a>
+
             <a
               href="https://github.com/lenlo121500"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-zinc-100 hover:text-blue-500 hover:-translate-y-1 transition-all duration-300"
+              className="text-zinc-100 hover:text-black hover:bg-white p-2 rounded-md hover:scale-110 transition-all duration-300"
             >
               <FaGithub className="w-9 h-9" />
             </a>
+
             <a
               href="https://www.linkedin.com/in/raulc8808/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-zinc-100 hover:text-blue-500 hover:-translate-y-1 transition-all duration-300"
+              className="text-zinc-100 hover:text-white hover:bg-blue-700 p-2 rounded-md hover:scale-110 transition-all duration-300"
             >
               <FaLinkedin className="w-9 h-9" />
             </a>
